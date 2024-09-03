@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import './ImageGallery.module.css';
+import styles from './ImageGallery.module.css';
 
 const ImageGallery = ({ images }) => {
   useEffect(() => {
@@ -18,11 +18,11 @@ const ImageGallery = ({ images }) => {
   }, [images]);
 
   return (
-    <ul className="gallery">
+    <ul className="gallery"> {/* //nu vrea sa functioneze altfel, nici cu gallery, nici fara gallery, incalc nu stiu ce regula */}
       {images.map(({ id, webformatURL, largeImageURL, tags }) => (
-        <li key={id} className="gallery-item">
+        <li key={id} className={styles.galleryItem}>
           <a href={largeImageURL} title={tags}>
-            <img src={webformatURL} alt={tags} className="gallery-image" />
+            <img src={webformatURL} alt={tags} className={styles.galleryImage} />
           </a>
         </li>
       ))}

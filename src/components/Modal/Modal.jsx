@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import PropTypes from 'prop-types';
-import './Modal.module.css';
+import styles from './Modal.module.css';
 
 const Modal = ({ onClose, largeImageURL, tags }) => {
   const handleOverlayClick = e => {
@@ -23,8 +23,8 @@ const Modal = ({ onClose, largeImageURL, tags }) => {
   }, [handleKeyDown]);
 
   return (
-    <div className="overlay" onClick={handleOverlayClick}>
-      <div className="modal">
+    <div className={styles.overlay} onClick={handleOverlayClick}>
+      <div className={styles.modal}>
         <img src={largeImageURL} alt={tags} />
       </div>
     </div>
