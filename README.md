@@ -49,7 +49,7 @@ The API response includes an array of objects, and the relevant information cons
 - **webformatURL**: Link to the small image for the card list
 - **largeImageURL**: Link to the large image for the modal window
 
-### `<Searchbar>` Component Description ![`<Searchbar>` Component Description](https://img.shields.io/badge/`<Searchbar>`Component%20Description-purple?style=for-the-badge)
+![`<Searchbar>` Component Description](https://img.shields.io/badge/`<Searchbar>`Component%20Description-purple?style=for-the-badge)
 
 The component receives a single prop, `onSubmit`—a function to pass the input value at the time of submission.
 
