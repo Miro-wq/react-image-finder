@@ -72,7 +72,8 @@ The component generates a DOM element with the following structure:
 </header>
 ```
 
-### `<ImageGallery>` Component Description
+![<ImageGallery> Component Description](https://img.shields.io/badge/<ImageGallery>-Component%20Description-purple?style=for-the-badge)
+
 
 A list of image cards. Creates a DOM element with the following structure:
 
@@ -82,7 +83,8 @@ A list of image cards. Creates a DOM element with the following structure:
 </ul>
 ```
 
-### `<ImageGalleryItem>` Component Description
+![<ImageGalleryItem> Component Description](https://img.shields.io/badge/<ImageGalleryItem>-Component%20Description-purple?style=for-the-badge)
+
 
 A component containing an image from the list. Creates a DOM element with the following structure:
 
@@ -92,15 +94,15 @@ A component containing an image from the list. Creates a DOM element with the fo
 </li>
 ```
 
-### `<Button>` Component Description
+![<Button> Component Description](https://img.shields.io/badge/<Button>-Component%20Description-purple?style=for-the-badge)
 
 On clicking the "Load more" button, the next batch of images should be loaded and displayed alongside the existing ones. The button should only be displayed when there are images loaded. If the image list is empty, the button should not be displayed.
 
-### `<Loader>` Component Description
+![<Loader> Component Description](https://img.shields.io/badge/<Loader>-Component%20Description-purple?style=for-the-badge)
 
 The spinner component is displayed while images are being loaded. Use any prepared component, for example, `react-loader-spinner` or any similar option.
 
-### `<Modal>` Component Description
+![<Modal> Component Description](https://img.shields.io/badge/<Modal>-Component%20Description-purple?style=for-the-badge)
 
 Clicking on an item in the gallery should open a modal window with a dark overlay and display the large version of the image. The modal window should close when the ESC key is pressed or when clicking on the dark overlay.
 
